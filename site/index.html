@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="Welcome to Anita's home — 作品、职业经历与生活切片。"><title>Welcome to Anita's home</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<header><a class="brand" href="./"><span>◒</span> ANITA'S HOME</a><div class="edition"><i></i> INTERACTIVE PORTFOLIO</div></header>
+<main>
+<section class="intro"><div class="eyebrow">VOL. 01 <b></b> A LITTLE ISLAND, A LOT OF STORIES</div><h1>Welcome to<br><em>Anita's home</em></h1><p>Hi，我是 Anita。<br>从电影制片到硅谷 AI，欢迎探索我的小岛。</p><button class="explore" data-open="0">开始探索 <span>↗</span></button></section>
+<section class="scene" aria-label="可旋转的 3D 简历海岛">
+<canvas id="island" aria-hidden="true"></canvas>
+<div id="pins"></div><div class="map-note"><span>✧</span> 拖动环绕 · 滚轮缩放 <button id="reset" aria-label="重置视角">↺</button></div>
+</section>
+<nav id="index" aria-label="简历目录"></nav>
+</main>
+<footer><span>© ANITA</span><span>Made with curiosity · Anita</span></footer>
+<dialog id="detail"><button class="close" aria-label="关闭">×</button><div id="content"></div></dialog>
+<script src="music.js"></script><script src="profile.js"></script><script src="language.js"></script><script type="module" src="island.js"></script></body></html>
